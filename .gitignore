@@ -33,3 +33,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# SSH keys and tokens
+*.pem
+*.key
+*.pub
+ghp_*
