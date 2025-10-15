@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-white text-slate-900 antialiased;
+}
+
+a {
+  @apply text-sky-600 hover:text-sky-800 transition-colors;
+}
+
+.prose pre {
+  @apply overflow-x-auto rounded-lg border border-slate-200 bg-slate-950/95 p-4 text-sm text-slate-100 shadow;
+}
+
+.prose code {
+  font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}
